@@ -93,7 +93,8 @@ const ContractDataTable: React.FC<ContractDataTableProps> = ({
     
     try {
       console.log('Saving with values:', { editValue, editPage });  
-      const response = await fetch('https://contract-50656497197.us-central1.run.app/update', {
+      const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+      const response = await fetch(`${apiBaseUrl}/update`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

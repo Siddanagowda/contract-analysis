@@ -44,9 +44,33 @@ app.add_middleware(
     max_age=86400
 )
 
-# Add OPTIONS endpoint for /rag-chat
+# Add OPTIONS endpoints for preflight requests
 @app.options("/rag-chat")
 async def options_rag_chat():
+    return Response(
+        content="",
+        headers={
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Max-Age": "86400"
+        }
+    )
+
+@app.options("/extracted-data/{db_id}")
+async def options_extracted_data(db_id: int):
+    return Response(
+        content="",
+        headers={
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Max-Age": "86400"
+        }
+    )
+
+@app.options("/verify-data")
+async def options_verify_data():
     return Response(
         content="",
         headers={
@@ -461,6 +485,139 @@ async def update_field(request: UpdateFieldRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+
+@app.get("/extracted-data/{db_id}")
+async def get_extracted_data(db_id: int):
+    """Retrieve extracted data for a specific document by db_id."""
+    try:
+        db = ResultDatabase()
+        conn = sqlite3.connect(db.db_path)
+        cursor = conn.cursor()
+        
+        # Get document metadata to determine doc type
+        cursor.execute(
+            "SELECT db_id, doc_type FROM document_metadata WHERE db_id = ?",
+            (db_id,)
+        )
+        metadata = cursor.fetchone()
+        
+        if not metadata:
+            return JSONResponse(
+                status_code=404,
+                content={"error": "Document not found"},
+                headers=get_cors_headers()
+            )
+        
+        doc_type = metadata[1]
+        tables = {"sow": "sow_detailed_results", "msa": "msa_detailed_results"}
+        table = tables.get(doc_type, "msa_detailed_results")
+        
+        # Get all fields for this document
+        cursor.execute(
+            f"""
+            SELECT field_name, field_value, page_number, confidence, reasoning, proof
+            FROM {table}
+            WHERE db_id = ?
+            ORDER BY field_name
+            """,
+            (db_id,)
+        )
+        
+        results = cursor.fetchall()
+        conn.close()
+        
+        extracted_data = [
+            {
+                "field": row[0],
+                "value": row[1],
+                "page_number": row[2],
+                "confidence": row[3],
+                "reasoning": row[4],
+                "proof": row[5]
+            }
+            for row in results
+        ]
+        
+        return JSONResponse(
+            content={
+                "db_id": db_id,
+                "doc_type": doc_type,
+                "extracted_data": extracted_data
+            },
+            headers=get_cors_headers()
+        )
+        
+    except Exception as e:
+        logger.error(f"Error retrieving extracted data: {str(e)}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)},
+            headers=get_cors_headers()
+        )
+
+@app.post("/verify-data")
+async def verify_data(request: Request):
+    """Mark extracted data as verified."""
+    try:
+        data = await request.json()
+        db_id = data.get("db_id")
+        verified_fields = data.get("verified_fields", [])
+        
+        if not db_id:
+            return JSONResponse(
+                status_code=400,
+                content={"error": "db_id is required"},
+                headers=get_cors_headers()
+            )
+        
+        db = ResultDatabase()
+        conn = sqlite3.connect(db.db_path)
+        cursor = conn.cursor()
+        
+        # Get document metadata to determine doc type
+        cursor.execute(
+            "SELECT doc_type FROM document_metadata WHERE db_id = ?",
+            (db_id,)
+        )
+        result = cursor.fetchone()
+        
+        if not result:
+            conn.close()
+            return JSONResponse(
+                status_code=404,
+                content={"error": "Document not found"},
+                headers=get_cors_headers()
+            )
+        
+        doc_type = result[0]
+        table = f"{doc_type}_detailed_results"
+        
+        # Update verified status for specified fields
+        for field in verified_fields:
+            cursor.execute(
+                f"""
+                UPDATE {table}
+                SET verified = 1
+                WHERE db_id = ? AND field_name = ?
+                """,
+                (db_id, field)
+            )
+        
+        conn.commit()
+        conn.close()
+        
+        return JSONResponse(
+            content={"success": True, "message": "Data marked as verified"},
+            headers=get_cors_headers()
+        )
+        
+    except Exception as e:
+        logger.error(f"Error verifying data: {str(e)}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)},
+            headers=get_cors_headers()
+        )
 
 @app.post("/rag-chat")
 async def rag_chat(request: Request):

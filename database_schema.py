@@ -10,6 +10,7 @@ SOW_DETAILED_SCHEMA = {
     'reasoning': 'TEXT',
     'proof': 'TEXT',
     'file_name': 'TEXT NOT NULL',
+    'verified': 'INTEGER DEFAULT 0',
     'created_at': 'TIMESTAMP DEFAULT CURRENT_TIMESTAMP'
 }
 
@@ -23,6 +24,7 @@ MSA_DETAILED_SCHEMA = {
     'reasoning': 'TEXT',
     'proof': 'TEXT',
     'file_name': 'TEXT NOT NULL',
+    'verified': 'INTEGER DEFAULT 0',
     'created_at': 'TIMESTAMP DEFAULT CURRENT_TIMESTAMP'
 }
 

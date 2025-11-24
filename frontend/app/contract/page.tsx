@@ -105,7 +105,8 @@ export default function ContractPage() {
 
         console.log("Processing Contract file");
 
-        const response = await fetch("https://contract-50656497197.us-central1.run.app/upload", {
+        const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+        const response = await fetch(`${apiBaseUrl}/upload`, {
           method: "POST",
           body: uploadFormData,
           mode: "cors",

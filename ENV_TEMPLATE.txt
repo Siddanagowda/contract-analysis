@@ -1,0 +1,21 @@
+# Backend Environment Setup
+# ========================
+# Create a .env file in the root directory with the following content:
+
+OPENAI_API_KEY=your_openai_api_key_here
+
+
+# Frontend Environment Setup
+# ==========================
+# Create a .env.local file in the frontend/ directory with the following content:
+
+NEXT_PUBLIC_API_URL=http://localhost:8000
+
+
+# Instructions:
+# 1. Get your OpenAI API key from https://platform.openai.com/api-keys
+# 2. Replace "your_openai_api_key_here" with your actual API key
+# 3. Copy this content to create .env (backend) and frontend/.env.local files
+# 4. Never commit these files - they're in .gitignore for security
+
+

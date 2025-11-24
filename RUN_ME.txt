@@ -1,0 +1,46 @@
+SETUP (One Time)
+================
+
+1. Backend:
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+
+2. Create .env (root):
+   OPENAI_API_KEY=sk-your-key-here
+
+3. Frontend:
+   cd frontend
+   npm install
+   cd ..
+
+4. Create frontend/.env.local:
+   NEXT_PUBLIC_API_URL=http://localhost:8000
+
+
+RUN (Daily)
+===========
+
+Terminal 1:
+  .venv\Scripts\activate
+  python main.py
+
+Terminal 2:
+  cd frontend
+  npm run dev
+
+Then open: http://localhost:3000/contract
+
+
+WHAT'S FIXED
+============
+
+✓ Frontend URLs now use localhost (not production)
+✓ Chat response parsing fixed
+✓ New endpoints: GET /extracted-data/{db_id}, POST /verify-data
+✓ Database schema: added "verified" column
+✓ All CORS working
+
+That's it. Done.
+
+

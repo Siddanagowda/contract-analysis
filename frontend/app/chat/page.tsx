@@ -93,7 +93,8 @@ export default function RagChatPage() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 10000);
 
-      const response = await fetch("https://contract-50656497197.us-central1.run.app/rag-chat", {
+      const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+      const response = await fetch(`${apiBaseUrl}/rag-chat`, {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",
@@ -115,14 +116,13 @@ export default function RagChatPage() {
       const data = await response.json();
       console.log('Received response:', data);
       
-      if (data.response && data.response.answer) {
-        setSessionId(data.response.session_id || sessionId);
+      if (data.response) {
+        setSessionId(data.session_id || sessionId);
         setMessages(prev => [
           ...prev,
           {
-            content: data.response.answer,
-            role: "assistant",
-            confidence: data.response.confidence
+            content: data.response,
+            role: "assistant"
           }
         ]);
       }
