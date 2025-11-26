@@ -15,9 +15,9 @@ from chunking import CustomChunking
 from batch_embedding import AsyncEmbeddingGenerator
 from result_database import ResultDatabase
 from rag_chatbot import RAGChatbot
+from deepseek_ocr import DeepSeekOCR
 import sqlite3
 import glob
-from result_database import ResultDatabase
 import json
 
 # Configure logging
@@ -364,7 +364,8 @@ async def options_upload():
 @app.post("/upload")
 async def upload_file(
     file: UploadFile = File(...),
-    pdfType: str = Form(...)
+    pdfType: str = Form(...),
+    use_deepseek: bool = Form(default=False)
 ):
     try:
         # Create contract_file directory if it doesn't exist
@@ -381,47 +382,22 @@ async def upload_file(
         with open(file_path, "wb") as f:
             f.write(await file.read())
         
-        # Initialize components
-        rag = SQLiteOpenAIRAG()
-        chunker = CustomChunking(overlap_words=50)
         db = ResultDatabase()
-
         logger.info(f"Processing {pdfType} document: {file.filename}")
-        
-        chunked_docs = chunker.load_documents(file_path)
-        if not chunked_docs:
-            logger.error(f"Failed to load document: {file_path}")
-            print("Failed to load document: ", file_path)
 
-        conn = sqlite3.connect(rag.db_path)
-        cursor = conn.cursor()
-        cursor.execute('SELECT COUNT(*) FROM document_chunks')
-        count = cursor.fetchone()[0]
-        logger.info(f"Current document chunks in database: {count}")
-
-        # check if we are storing new documents else delete the document chunks from the database and store new ones
-        embedding_generator = AsyncEmbeddingGenerator();
-        embedded_docs = await embedding_generator.embed_chunks(chunked_docs)
-        
-        if count == 0 and chunked_docs:
-            logger.info("Storing first set of document chunks")
-            rag.db_handler.store_chunked_docs(embedded_docs)
-        elif chunked_docs:
-            logger.info("Replacing existing document chunks")
-            cursor.execute('DELETE FROM document_chunks;')
-            conn.commit()
-            rag.db_handler.store_chunked_docs(embedded_docs)
+        # Use DeepSeek OCR if requested
+        if use_deepseek:
+            logger.info("Using DeepSeek OCR for extraction")
+            try:
+                ocr = DeepSeekOCR()
+                results = ocr.extract_all_fields(file_path, doc_type=pdfType)
+            except Exception as e:
+                logger.error(f"DeepSeek extraction failed: {str(e)}")
+                logger.info("Falling back to OpenAI extraction")
+                results = await _extract_with_openai(file_path, pdfType)
         else:
-            logger.error(f"Embedding and chunk uploading failed. Chunk count: {len(chunked_docs)}")
-            print(f"Embedding and chunk Uploading Failed. {len(chunked_docs)}")
-
-        conn.close()
-        logger.info(f"Stored {len(chunked_docs)} chunks in SQLite database")
-        print(f"Stored {len(chunked_docs)} chunks in SQLite database.")
-
-        results = await rag.extract_all_fields(doc_type=pdfType)
-        logger.info(f"Extracted {len(results)} fields from document")
-        print(results)
+            logger.info("Using OpenAI extraction")
+            results = await _extract_with_openai(file_path, pdfType)
 
         db_id = db.store_results(results, doc_type=pdfType, file_name=file.filename)
         logger.info(f"Stored results in database with db_id: {db_id}")
@@ -435,8 +411,6 @@ async def upload_file(
         # add db_id to the response
         transformed_data = {'db_id': db_id, 'extracted_data': transformed_data}
         logger.info(f"Returning transformed data with db_id: {db_id}")
-
-        print(f"Final response: {transformed_data}")
         
         # Return response with CORS headers
         return JSONResponse(
@@ -453,6 +427,40 @@ async def upload_file(
         logger.error(f"Error processing file: {str(e)}")
         print(f"Error processing file: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+async def _extract_with_openai(file_path: str, pdfType: str):
+    """Extract fields using OpenAI (original method)."""
+    rag = SQLiteOpenAIRAG()
+    chunker = CustomChunking(overlap_words=50)
+    
+    chunked_docs = chunker.load_documents(file_path)
+    if not chunked_docs:
+        logger.error(f"Failed to load document: {file_path}")
+        raise ValueError("Failed to load document")
+
+    conn = sqlite3.connect(rag.db_path)
+    cursor = conn.cursor()
+    cursor.execute('SELECT COUNT(*) FROM document_chunks')
+    count = cursor.fetchone()[0]
+
+    embedding_generator = AsyncEmbeddingGenerator()
+    embedded_docs = await embedding_generator.embed_chunks(chunked_docs)
+    
+    if count == 0 and chunked_docs:
+        rag.db_handler.store_chunked_docs(embedded_docs)
+    elif chunked_docs:
+        cursor.execute('DELETE FROM document_chunks;')
+        conn.commit()
+        rag.db_handler.store_chunked_docs(embedded_docs)
+
+    conn.close()
+    logger.info(f"Stored {len(chunked_docs)} chunks in SQLite database")
+
+    results = await rag.extract_all_fields(doc_type=pdfType)
+    logger.info(f"Extracted {len(results)} fields from document")
+    
+    return results
         
 @app.post("/update")
 async def update_field(request: UpdateFieldRequest):
