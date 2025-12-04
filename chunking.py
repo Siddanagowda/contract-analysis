@@ -1,18 +1,42 @@
 import re
 import os
 import time
+import logging
 from typing import Optional, List, Dict
 from pypdf import PdfReader
 
+# Try to import DeepSeek OCR
+try:
+    from deepseek_ocr import get_deepseek_ocr
+    DEEPSEEK_AVAILABLE = True
+except ImportError:
+    DEEPSEEK_AVAILABLE = False
+    logging.warning("DeepSeek OCR not available. Using pypdf for text extraction.")
+
 class CustomChunking:
-    def __init__(self, overlap_words: int = 50):
+    def __init__(self, overlap_words: int = 50, use_deepseek: bool = False):
         """
         Initializes the CustomChunking class with a specified number of overlap words.
 
         Args:
             overlap_words (int): Number of words to overlap from previous and next pages.
+            use_deepseek (bool): Whether to use DeepSeek OCR for text extraction (default: False)
         """
         self.overlap_words = overlap_words
+        self.use_deepseek = use_deepseek and DEEPSEEK_AVAILABLE
+        self.deepseek_ocr = None
+        
+        if self.use_deepseek:
+            try:
+                self.deepseek_ocr = get_deepseek_ocr()
+                if self.deepseek_ocr.is_available():
+                    logging.info("DeepSeek OCR initialized successfully")
+                else:
+                    logging.warning("DeepSeek OCR failed to initialize, falling back to pypdf")
+                    self.use_deepseek = False
+            except Exception as e:
+                logging.error(f"Error initializing DeepSeek OCR: {str(e)}")
+                self.use_deepseek = False
 
     @staticmethod
     def clean_text(text: str) -> str:
@@ -78,6 +102,22 @@ class CustomChunking:
         Returns:
             List[Dict]: A list of dictionaries with page numbers and their corresponding cleaned text.
         """
+        # Use DeepSeek OCR if enabled
+        if self.use_deepseek and self.deepseek_ocr:
+            try:
+                print(f"Using DeepSeek OCR for {file_name}")
+                results = self.deepseek_ocr.process_pdf(file_name)
+                if results:
+                    # Clean text for consistency
+                    for page in results:
+                        page['text'] = self.clean_text(page['text'])
+                    return results
+                else:
+                    print("DeepSeek OCR returned no results, falling back to pypdf")
+            except Exception as e:
+                print(f"DeepSeek OCR failed: {str(e)}, falling back to pypdf")
+
+        # Fallback to pypdf
         reader = PdfReader(file_name)
         page_contents = []
 
@@ -193,15 +233,3 @@ class CustomChunking:
             print(f"--- Page {page_number} ---")
             print(text)
             print("\n" + "-" * 50 + "\n")
-
-
-# # Example Usage:
-# start_time = time.time()
-# chunker = CustomChunking(overlap_words=100)
-# file_path = "Stream.pdf"
-# complete_file_path = os.path.join("contract_file", file_path)
-# chunked_document = chunker.process_file(complete_file_path)
-# chunker.print_clean_chunked_document(chunked_document)
-# end_time = time.time()
-
-# print(f"Time taken: {end_time - start_time:.2f} seconds")

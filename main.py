@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
@@ -9,6 +10,10 @@ import sys
 import asyncio
 import logging
 import traceback
+import time
+import json
+import uuid
+import shutil
 from database_handler import DatabaseHandler
 from sqlite_rag import SQLiteOpenAIRAG
 from chunking import CustomChunking
@@ -17,8 +22,9 @@ from result_database import ResultDatabase
 from rag_chatbot import RAGChatbot
 import sqlite3
 import glob
-from result_database import ResultDatabase
-import json
+
+# Load environment variables
+load_dotenv()
 
 # Configure logging
 
@@ -370,20 +376,42 @@ async def upload_file(
         # Create contract_file directory if it doesn't exist
         os.makedirs("contract_file", exist_ok=True)
 
-        # make sure contract_file directory is empty
-        for f in os.listdir("contract_file"):
-            file_path = os.path.join("contract_file", f)
-            if os.path.isfile(file_path):
-                os.remove(file_path)
+        # Clean up old files (but not the current one)
+        contract_dir = "contract_file"
+        for filename in os.listdir(contract_dir):
+            file_path_old = os.path.join(contract_dir, filename)
+            try:
+                if os.path.isfile(file_path_old):
+                    os.remove(file_path_old)
+                elif os.path.isdir(file_path_old):
+                    shutil.rmtree(file_path_old)
+            except Exception as e:
+                logger.warning(f"Could not remove {file_path_old}: {str(e)}")
         
-        # Save uploaded file
-        file_path = os.path.join("contract_file", file.filename)
+        # Save uploaded file with timestamp to avoid conflicts
+        file_ext = os.path.splitext(file.filename)[1]
+        unique_filename = f"{uuid.uuid4()}{file_ext}"
+        file_path = os.path.join("contract_file", unique_filename)
+        file_content = await file.read()
+        
+        # Write to file with explicit close and sync
         with open(file_path, "wb") as f:
-            f.write(await file.read())
+            f.write(file_content)
+            f.flush()
+            os.fsync(f.fileno())
+        
+        # Small delay to ensure file is fully written and released
+        time.sleep(1)
+        
+        # Verify file is accessible
+        if not os.path.exists(file_path):
+            logger.error(f"File not found after saving: {file_path}")
+            raise HTTPException(status_code=500, detail="Failed to save uploaded file")
         
         # Initialize components
         rag = SQLiteOpenAIRAG()
-        chunker = CustomChunking(overlap_words=50)
+        use_deepseek = os.getenv("USE_DEEPSEEK_OCR", "false").lower() == "true"
+        chunker = CustomChunking(overlap_words=50, use_deepseek=use_deepseek)
         db = ResultDatabase()
 
         logger.info(f"Processing {pdfType} document: {file.filename}")

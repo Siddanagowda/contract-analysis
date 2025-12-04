@@ -714,3 +714,1719 @@
 2025-11-24 11:30:48,352 - __main__ - INFO - Extracted 14 fields from document
 2025-11-24 11:30:48,372 - __main__ - INFO - Stored results in database with db_id: 14
 2025-11-24 11:30:48,373 - __main__ - INFO - Returning transformed data with db_id: 14
+2025-11-27 10:45:20,790 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 10:45:24,427 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: This modeling file requires the following packages that were not found in your environment: addict, matplotlib. Run `pip install addict matplotlib`
+2025-11-27 10:45:24,443 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 10:45:24,512 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 10:45:24,838 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 10:45:26,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,593 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 10:45:26,594 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 10:45:26,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:26,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,010 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,018 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,027 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,058 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,192 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 10:45:27,197 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 10:45:27,208 - __main__ - INFO - Stored results in database with db_id: 1
+2025-11-27 10:45:27,208 - __main__ - INFO - Returning transformed data with db_id: 1
+2025-11-27 11:31:37,120 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 11:31:42,287 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: The paging file is too small for this operation to complete. (os error 1455)
+2025-11-27 11:31:42,309 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 11:31:42,312 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 11:31:42,663 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 11:31:43,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:43,938 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 11:31:43,940 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 11:31:44,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,266 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,305 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,306 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,314 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,356 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,367 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,390 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,593 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 11:31:44,595 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 11:31:44,605 - __main__ - INFO - Stored results in database with db_id: 2
+2025-11-27 11:31:44,606 - __main__ - INFO - Returning transformed data with db_id: 2
+2025-11-27 11:45:44,753 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 11:47:19,486 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:08:20,513 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:08:23,308 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: This modeling file requires the following packages that were not found in your environment: addict. Run `pip install addict`
+2025-11-27 12:08:23,324 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 12:08:23,332 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 12:08:23,807 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 12:08:26,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,282 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 12:08:26,283 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 12:08:26,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,801 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,813 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,822 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,838 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,846 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,855 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,867 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:26,869 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:27,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:08:27,040 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 12:08:27,048 - __main__ - INFO - Stored results in database with db_id: 3
+2025-11-27 12:08:27,049 - __main__ - INFO - Returning transformed data with db_id: 3
+2025-11-27 12:18:00,253 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:21:43,792 - __main__ - ERROR - Error processing file: [WinError 32] The process cannot access the file because it is being used by another process: 'contract_file\\SOW.pdf'
+2025-11-27 12:24:12,601 - __main__ - ERROR - Error processing file: [WinError 32] The process cannot access the file because it is being used by another process: 'contract_file\\SOW.pdf'
+2025-11-27 12:26:54,643 - __main__ - WARNING - Could not remove contract_file\SOW.pdf: [WinError 32] The process cannot access the file because it is being used by another process: 'contract_file\\SOW.pdf'
+2025-11-27 12:26:57,063 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:27:00,592 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: This modeling file requires the following packages that were not found in your environment: addict. Run `pip install addict`
+2025-11-27 12:27:00,614 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 12:27:00,618 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 12:27:01,195 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 12:27:03,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,041 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 12:27:03,042 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 12:27:03,390 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,427 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,449 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,462 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,462 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,507 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:27:03,624 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 12:27:03,639 - __main__ - INFO - Stored results in database with db_id: 4
+2025-11-27 12:27:03,639 - __main__ - INFO - Returning transformed data with db_id: 4
+2025-11-27 12:29:48,822 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:34:08,397 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:42:40,809 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 12:42:46,312 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: The paging file is too small for this operation to complete. (os error 1455)
+2025-11-27 12:42:46,332 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 12:42:46,334 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 12:42:46,680 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 12:42:47,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:47,921 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 12:42:47,922 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 12:42:48,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,305 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,317 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,380 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,381 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,388 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,401 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 12:42:48,407 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 12:42:48,416 - __main__ - INFO - Stored results in database with db_id: 5
+2025-11-27 12:42:48,416 - __main__ - INFO - Returning transformed data with db_id: 5
+2025-11-27 13:01:49,450 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 13:01:54,273 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: The paging file is too small for this operation to complete. (os error 1455)
+2025-11-27 13:01:54,313 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 13:01:54,322 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 13:01:54,656 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 13:01:55,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:55,907 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 13:01:55,908 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 13:01:56,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,244 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,330 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,338 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,367 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,380 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,507 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:01:56,585 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 13:01:56,596 - __main__ - INFO - Stored results in database with db_id: 6
+2025-11-27 13:01:56,597 - __main__ - INFO - Returning transformed data with db_id: 6
+2025-11-27 13:05:02,666 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 13:05:02,672 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 13:05:03,055 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 13:05:03,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:03,755 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 13:05:03,756 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 13:05:04,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,165 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,169 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,172 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,178 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,192 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,196 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,240 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,251 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,293 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-11-27 13:05:04,358 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 13:05:04,373 - __main__ - INFO - Stored results in database with db_id: 7
+2025-11-27 13:05:04,373 - __main__ - INFO - Returning transformed data with db_id: 7
+2025-11-27 13:08:22,816 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-11-27 13:08:28,158 - deepseek_ocr - ERROR - Failed to load DeepSeek-OCR model: The paging file is too small for this operation to complete. (os error 1455)
+2025-11-27 13:08:28,187 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 13:08:28,193 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-11-27 13:08:28,558 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 13:08:31,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:31,325 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 13:08:31,359 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-11-27 13:08:31,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,657 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,663 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,812 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,924 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:32,987 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:33,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:33,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:33,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:33,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:33,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:08:34,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-11-27 13:08:34,243 - openai._base_client - INFO - Retrying request to /chat/completions in 0.408713 seconds
+2025-11-27 13:08:35,317 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,691 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,838 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:35,991 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:36,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:36,208 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:36,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:36,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:38,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:08:38,037 - __main__ - INFO - Extracted 14 fields from document
+2025-11-27 13:08:38,049 - __main__ - INFO - Stored results in database with db_id: 8
+2025-11-27 13:08:38,050 - __main__ - INFO - Returning transformed data with db_id: 8
+2025-11-27 13:09:00,917 - root - WARNING - DeepSeek OCR failed to initialize, falling back to pypdf
+2025-11-27 13:09:00,922 - __main__ - INFO - Processing MSA document: MSA.pdf
+2025-11-27 13:09:01,261 - __main__ - INFO - Current document chunks in database: 0
+2025-11-27 13:09:03,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:03,444 - __main__ - INFO - Storing first set of document chunks
+2025-11-27 13:09:03,464 - __main__ - INFO - Stored 6 chunks in SQLite database
+2025-11-27 13:09:03,883 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:03,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:03,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:03,987 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:03,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,089 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:04,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-27 13:09:05,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:09:06,251 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:09:06,656 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:09:06,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:09:06,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:09:08,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:09:11,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:10:04,159 - openai._base_client - INFO - Retrying request to /chat/completions in 0.378275 seconds
+2025-11-27 13:10:08,223 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 13:10:08,233 - __main__ - INFO - Extracted 8 fields from document
+2025-11-27 13:10:08,274 - __main__ - INFO - Stored results in database with db_id: 9
+2025-11-27 13:10:08,279 - __main__ - INFO - Returning transformed data with db_id: 9
+2025-12-01 09:49:21,193 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 09:51:54,915 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 09:56:14,346 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:01:35,604 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:03:18,327 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:17:01,216 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:18:35,448 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 10:18:35,455 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:18:35,564 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:18:35,569 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\47712a44-2c89-4dd6-939f-cdd1cb933df5.pdf
+2025-12-01 10:18:35,570 - deepseek_ocr - INFO - Converting PDF to images: contract_file\47712a44-2c89-4dd6-939f-cdd1cb933df5.pdf
+2025-12-01 10:18:48,129 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:18:48,130 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:18:48,262 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,263 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:18:48,354 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,355 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:18:48,448 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,449 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:18:48,522 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,523 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:18:48,603 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,604 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:18:48,681 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,682 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:18:48,761 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,762 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:18:48,846 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:18:48,847 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:18:48,897 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:18:53,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:53,852 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:18:53,854 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:18:54,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,368 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,409 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,502 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,507 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,526 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,560 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-12-01 10:18:54,866 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:18:54,894 - __main__ - INFO - Stored results in database with db_id: 10
+2025-12-01 10:18:54,894 - __main__ - INFO - Returning transformed data with db_id: 10
+2025-12-01 10:21:12,084 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:21:53,435 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 10:21:53,437 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:21:53,460 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:21:53,463 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\f8cca2a4-da3b-456f-bb2e-56b906502bd0.pdf
+2025-12-01 10:21:53,464 - deepseek_ocr - INFO - Converting PDF to images: contract_file\f8cca2a4-da3b-456f-bb2e-56b906502bd0.pdf
+2025-12-01 10:22:03,670 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:22:03,671 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:22:03,735 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:03,736 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:22:03,778 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:03,779 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:22:03,819 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:03,819 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:22:03,866 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:03,866 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:22:03,914 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:03,915 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:22:03,961 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:03,961 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:22:04,006 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:04,006 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:22:04,046 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:22:04,047 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:22:04,078 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:22:08,068 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 10:22:08,072 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:22:08,073 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:22:08,910 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,536 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:09,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:10,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:10,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:22:10,151 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:22:10,167 - __main__ - INFO - Stored results in database with db_id: 11
+2025-12-01 10:22:10,167 - __main__ - INFO - Returning transformed data with db_id: 11
+2025-12-01 10:24:23,275 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:24:57,695 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 10:24:57,696 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:24:57,753 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:24:57,755 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\3cd0fe18-66dc-402f-ba22-89f321fa7a8b.pdf
+2025-12-01 10:24:57,756 - deepseek_ocr - INFO - Converting PDF to images: contract_file\3cd0fe18-66dc-402f-ba22-89f321fa7a8b.pdf
+2025-12-01 10:25:01,134 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:25:01,135 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:25:01,188 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,188 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:25:01,229 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,229 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:25:01,271 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,271 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:25:01,315 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,316 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:25:01,362 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,363 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:25:01,405 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,406 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:25:01,449 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,449 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:25:01,490 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:25:01,491 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:25:01,521 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:25:04,356 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 10:25:04,360 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:25:04,361 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:25:04,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,049 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,064 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,094 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,105 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,113 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,129 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,165 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,245 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,257 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,288 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,325 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:25:05,414 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:25:05,433 - __main__ - INFO - Stored results in database with db_id: 12
+2025-12-01 10:25:05,434 - __main__ - INFO - Returning transformed data with db_id: 12
+2025-12-01 10:26:34,795 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:26:34,801 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:26:34,801 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\b59888c6-84c7-451f-9579-6ca14e4612c3.pdf
+2025-12-01 10:26:34,802 - deepseek_ocr - INFO - Converting PDF to images: contract_file\b59888c6-84c7-451f-9579-6ca14e4612c3.pdf
+2025-12-01 10:26:37,281 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:26:37,281 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:26:37,320 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,321 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:26:37,361 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,361 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:26:37,403 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,404 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:26:37,448 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,448 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:26:37,488 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,488 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:26:37,530 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,530 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:26:37,572 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,572 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:26:37,613 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:26:37,614 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:26:37,627 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:26:38,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 10:26:38,712 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:26:38,713 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:26:39,184 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,208 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,276 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,321 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,345 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,354 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,367 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,501 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,560 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:26:39,722 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:26:39,735 - __main__ - INFO - Stored results in database with db_id: 13
+2025-12-01 10:26:39,736 - __main__ - INFO - Returning transformed data with db_id: 13
+2025-12-01 10:37:15,653 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:37:16,031 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:37:17,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:17,910 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:37:17,921 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:37:18,401 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,485 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,487 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,490 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,517 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,578 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,602 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,611 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,617 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,730 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,744 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,747 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,867 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:18,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:19,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:19,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,079 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,409 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:21,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:22,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:22,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:22,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:22,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:24,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:24,373 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 10:37:24,376 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:37:24,387 - __main__ - INFO - Stored results in database with db_id: 14
+2025-12-01 10:37:24,387 - __main__ - INFO - Returning transformed data with db_id: 14
+2025-12-01 10:38:06,204 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:38:38,673 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 10:38:38,674 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:38:38,702 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:38:38,704 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\8f2cfbee-ef30-4479-a205-109e1c2d2203.pdf
+2025-12-01 10:38:38,705 - deepseek_ocr - INFO - Converting PDF to images: contract_file\8f2cfbee-ef30-4479-a205-109e1c2d2203.pdf
+2025-12-01 10:38:41,702 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:38:41,703 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:38:41,747 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,747 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:38:41,782 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,782 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:38:41,817 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,818 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:38:41,853 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,854 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:38:41,894 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,895 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:38:41,931 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,932 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:38:41,982 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:41,983 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:38:42,091 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:38:42,091 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:38:42,116 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:38:44,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 10:38:44,726 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:38:44,727 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:38:45,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,363 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,410 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,460 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,493 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,598 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,621 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,658 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,704 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,747 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,799 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:38:45,877 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:38:45,894 - __main__ - INFO - Stored results in database with db_id: 15
+2025-12-01 10:38:45,895 - __main__ - INFO - Returning transformed data with db_id: 15
+2025-12-01 10:44:11,977 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:44:11,986 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:44:11,987 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\e308a05b-f432-488e-a1d1-dfab407c51d0.pdf
+2025-12-01 10:44:11,988 - deepseek_ocr - INFO - Converting PDF to images: contract_file\e308a05b-f432-488e-a1d1-dfab407c51d0.pdf
+2025-12-01 10:44:13,459 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:44:13,460 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:44:13,481 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,481 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:44:13,502 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,503 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:44:13,524 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,525 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:44:13,547 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,547 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:44:13,568 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,568 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:44:13,738 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,738 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:44:13,763 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,764 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:44:13,780 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:44:13,780 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:44:13,789 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:44:14,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 10:44:14,550 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:44:14,550 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:44:14,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:14,991 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,006 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,035 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,165 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,240 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,276 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,321 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:44:15,566 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:44:15,582 - __main__ - INFO - Stored results in database with db_id: 16
+2025-12-01 10:44:15,582 - __main__ - INFO - Returning transformed data with db_id: 16
+2025-12-01 10:57:50,082 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 10:58:26,365 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 10:58:26,367 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 10:58:26,398 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 10:58:26,401 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\48d3fcb2-0ed1-43f1-9312-248bec3da2e9.pdf
+2025-12-01 10:58:26,401 - deepseek_ocr - INFO - Converting PDF to images: contract_file\48d3fcb2-0ed1-43f1-9312-248bec3da2e9.pdf
+2025-12-01 10:58:29,886 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 10:58:29,886 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 10:58:29,929 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:29,929 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 10:58:29,960 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:29,960 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 10:58:29,991 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:29,992 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 10:58:30,025 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:30,027 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 10:58:30,060 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:30,060 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 10:58:30,094 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:30,094 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 10:58:30,130 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:30,130 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 10:58:30,164 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 10:58:30,164 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 10:58:30,188 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 10:58:32,523 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 10:58:32,525 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 10:58:32,526 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 10:58:33,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,196 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,214 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,222 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,235 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,683 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 10:58:33,757 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 10:58:33,769 - __main__ - INFO - Stored results in database with db_id: 17
+2025-12-01 10:58:33,770 - __main__ - INFO - Returning transformed data with db_id: 17
+2025-12-01 11:00:30,071 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 11:01:07,912 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 11:01:07,914 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 11:01:07,941 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 11:01:07,942 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\a63a7a79-ceb7-4397-81a5-518c66348f1f.pdf
+2025-12-01 11:01:07,943 - deepseek_ocr - INFO - Converting PDF to images: contract_file\a63a7a79-ceb7-4397-81a5-518c66348f1f.pdf
+2025-12-01 11:01:11,391 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 11:01:11,391 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 11:01:11,444 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,445 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 11:01:11,483 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,483 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 11:01:11,522 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,522 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 11:01:11,561 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,561 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 11:01:11,600 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,600 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 11:01:11,639 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,639 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 11:01:11,673 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,674 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 11:01:11,708 - deepseek_ocr - ERROR - Error extracting text from image: [WinError 3] The system cannot find the path specified: ''
+2025-12-01 11:01:11,708 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 11:01:11,736 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 11:01:14,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 11:01:14,562 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 11:01:14,563 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 11:01:15,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,200 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,260 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,288 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,354 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,380 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,427 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,490 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:15,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:16,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:01:16,201 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 11:01:16,214 - __main__ - INFO - Stored results in database with db_id: 18
+2025-12-01 11:01:16,215 - __main__ - INFO - Returning transformed data with db_id: 18
+2025-12-01 11:14:25,800 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 11:15:07,432 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 11:15:07,434 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 11:15:07,491 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 11:15:07,494 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\bbd4e57f-bafa-4852-b9ec-223e5a1e6485.pdf
+2025-12-01 11:15:07,495 - deepseek_ocr - INFO - Converting PDF to images: contract_file\bbd4e57f-bafa-4852-b9ec-223e5a1e6485.pdf
+2025-12-01 11:15:10,836 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 11:15:10,837 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 11:15:11,402 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:11,412 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 11:15:11,636 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:11,648 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 11:15:11,904 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:11,914 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 11:15:12,198 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:12,206 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 11:15:12,457 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:12,469 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 11:15:12,709 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:12,719 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 11:15:13,009 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:13,017 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 11:15:13,387 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:15:13,399 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 11:15:13,476 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 11:15:16,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 11:15:16,938 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 11:15:16,939 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 11:15:17,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,653 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,659 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,681 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,711 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,858 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,892 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,915 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:17,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,007 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,068 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,167 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:15:18,191 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 11:15:18,210 - __main__ - INFO - Stored results in database with db_id: 19
+2025-12-01 11:15:18,210 - __main__ - INFO - Returning transformed data with db_id: 19
+2025-12-01 11:25:54,379 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cpu
+2025-12-01 11:26:38,441 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 11:26:38,443 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 11:26:38,497 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 11:26:38,499 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\384ad24d-a757-4598-947a-692709006f89.pdf
+2025-12-01 11:26:38,500 - deepseek_ocr - INFO - Converting PDF to images: contract_file\384ad24d-a757-4598-947a-692709006f89.pdf
+2025-12-01 11:26:42,444 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 11:26:42,447 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 11:26:42,964 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:42,974 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 11:26:43,214 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:43,226 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 11:26:43,481 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:43,490 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 11:26:43,737 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:43,745 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 11:26:44,005 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:44,018 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 11:26:44,309 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:44,322 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 11:26:44,660 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:44,670 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 11:26:44,948 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:26:44,962 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 11:26:45,025 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 11:26:48,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 11:26:48,561 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 11:26:48,565 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 11:26:49,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,337 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,367 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,586 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,596 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:26:49,894 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 11:26:49,917 - __main__ - INFO - Stored results in database with db_id: 20
+2025-12-01 11:26:49,918 - __main__ - INFO - Returning transformed data with db_id: 20
+2025-12-01 11:28:22,936 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 11:28:22,942 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 11:28:22,943 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\aacba8f1-98bf-437e-99ad-f17a2dfed6c7.pdf
+2025-12-01 11:28:22,943 - deepseek_ocr - INFO - Converting PDF to images: contract_file\aacba8f1-98bf-437e-99ad-f17a2dfed6c7.pdf
+2025-12-01 11:28:24,838 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 11:28:24,838 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 11:28:25,034 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:25,038 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 11:28:25,214 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:25,219 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 11:28:25,409 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:25,414 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 11:28:25,610 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:25,616 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 11:28:25,814 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:25,820 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 11:28:26,018 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:26,025 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 11:28:26,236 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:26,243 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 11:28:26,435 - deepseek_ocr - ERROR - Error extracting text from image: Torch not compiled with CUDA enabled
+2025-12-01 11:28:26,441 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 11:28:26,462 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 11:28:27,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 400 Bad Request"
+2025-12-01 11:28:27,313 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 11:28:27,315 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 11:28:27,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:27,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:27,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:27,952 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:27,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:27,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:27,996 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,109 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,125 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,158 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,202 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,208 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,227 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 11:28:28,869 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 11:28:28,883 - __main__ - INFO - Stored results in database with db_id: 21
+2025-12-01 11:28:28,884 - __main__ - INFO - Returning transformed data with db_id: 21
+2025-12-01 12:24:06,467 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 12:24:06,822 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 12:24:08,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:08,972 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 12:24:08,980 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 12:24:09,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,598 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,643 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,648 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,681 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,694 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,749 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,771 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,850 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,892 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,962 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:09,997 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:10,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:24:12,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:12,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:12,788 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:12,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:12,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:13,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:13,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:13,394 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:13,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:14,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:14,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:14,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:14,952 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:16,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:24:16,722 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 12:24:16,738 - __main__ - INFO - Stored results in database with db_id: 22
+2025-12-01 12:24:16,738 - __main__ - INFO - Returning transformed data with db_id: 22
+2025-12-01 12:25:22,315 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cuda
+2025-12-01 12:25:27,822 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-01 12:25:36,538 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-12-01 12:25:36,550 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 12:25:36,551 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 12:25:36,558 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 12:25:36,559 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\bdb29cce-7419-44fe-9d21-b4d342fff7b1.pdf
+2025-12-01 12:25:36,559 - deepseek_ocr - INFO - Converting PDF to images: contract_file\bdb29cce-7419-44fe-9d21-b4d342fff7b1.pdf
+2025-12-01 12:25:38,131 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 12:25:38,131 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 12:27:07,147 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:27:07,151 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 12:28:43,908 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:28:43,909 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 12:30:25,562 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:30:25,563 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 12:32:53,673 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:32:53,673 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 12:34:50,092 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:34:50,093 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 12:35:52,896 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:35:52,896 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 12:37:47,907 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:37:47,907 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 12:38:51,474 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:38:51,474 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 12:38:51,493 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 12:38:53,683 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,024 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 12:38:54,035 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 12:38:54,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,611 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,641 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,666 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,731 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,786 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,802 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:54,996 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:55,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:55,363 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,259 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,773 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,822 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:56,952 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,083 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,560 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 12:38:57,566 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 12:38:57,589 - __main__ - INFO - Stored results in database with db_id: 23
+2025-12-01 12:38:57,591 - __main__ - INFO - Returning transformed data with db_id: 23
+2025-12-01 12:43:29,892 - deepseek_ocr - INFO - Initializing DeepSeek-OCR on cuda
+2025-12-01 12:43:36,064 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-01 12:43:40,127 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-12-01 12:43:40,140 - deepseek_ocr - INFO - DeepSeek-OCR model loaded successfully
+2025-12-01 12:43:40,141 - root - INFO - DeepSeek OCR initialized successfully
+2025-12-01 12:43:40,146 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 12:43:40,147 - deepseek_ocr - INFO - Processing PDF with DeepSeek-OCR: contract_file\16b2a5d4-b459-41a5-9703-f0e204cc1ec6.pdf
+2025-12-01 12:43:40,147 - deepseek_ocr - INFO - Converting PDF to images: contract_file\16b2a5d4-b459-41a5-9703-f0e204cc1ec6.pdf
+2025-12-01 12:43:41,731 - deepseek_ocr - INFO - Converted 8 pages
+2025-12-01 12:43:41,731 - deepseek_ocr - INFO - Processing page 1/8
+2025-12-01 12:46:22,061 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:46:22,062 - deepseek_ocr - INFO - Processing page 2/8
+2025-12-01 12:48:56,684 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:48:56,684 - deepseek_ocr - INFO - Processing page 3/8
+2025-12-01 12:52:08,386 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:52:08,386 - deepseek_ocr - INFO - Processing page 4/8
+2025-12-01 12:54:35,541 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:54:35,542 - deepseek_ocr - INFO - Processing page 5/8
+2025-12-01 12:57:21,819 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:57:21,820 - deepseek_ocr - INFO - Processing page 6/8
+2025-12-01 12:59:35,510 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 12:59:35,512 - deepseek_ocr - INFO - Processing page 7/8
+2025-12-01 13:02:25,145 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 13:02:25,146 - deepseek_ocr - INFO - Processing page 8/8
+2025-12-01 13:03:53,729 - deepseek_ocr - WARNING - Unexpected result type: <class 'NoneType'>
+2025-12-01 13:03:53,730 - deepseek_ocr - INFO - Completed processing 8 pages
+2025-12-01 13:03:53,753 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 13:03:56,173 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:56,340 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 13:03:56,370 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 13:03:56,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:56,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:56,996 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:56,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,027 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,262 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,266 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:57,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:58,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:03:58,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,266 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,433 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:03:59,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:04:00,061 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:04:00,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:04:00,172 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:04:00,186 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 13:04:00,208 - __main__ - INFO - Stored results in database with db_id: 24
+2025-12-01 13:04:00,210 - __main__ - INFO - Returning transformed data with db_id: 24
+2025-12-01 13:06:27,296 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 13:06:27,753 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 13:06:29,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:29,940 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 13:06:29,947 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 13:06:30,449 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,485 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,526 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,553 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,713 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:30,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:06:32,381 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:32,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:32,866 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,726 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,729 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:33,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:34,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:34,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:06:34,652 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 13:06:34,669 - __main__ - INFO - Stored results in database with db_id: 25
+2025-12-01 13:06:34,670 - __main__ - INFO - Returning transformed data with db_id: 25
+2025-12-01 13:08:38,112 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 13:08:38,674 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 13:08:40,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:40,622 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 13:08:40,640 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 13:08:41,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,330 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,331 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,425 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,494 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:41,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:43,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:44,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:44,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:44,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:44,331 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:44,611 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:45,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:46,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:08:46,146 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 13:08:46,177 - __main__ - INFO - Stored results in database with db_id: 26
+2025-12-01 13:08:46,182 - __main__ - INFO - Returning transformed data with db_id: 26
+2025-12-01 13:09:01,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:09:01,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 13:09:05,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 13:09:10,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:51,523 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 14:53:52,167 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 14:53:54,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:55,039 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 14:53:55,055 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 14:53:55,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:55,803 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:55,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,236 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,262 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,394 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,414 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,493 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,608 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:56,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:57,124 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 14:53:58,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,487 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,786 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:53:59,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:54:00,192 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:54:00,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:54:00,517 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:54:00,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:54:00,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 14:54:00,917 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 14:54:00,925 - __main__ - INFO - Stored results in database with db_id: 27
+2025-12-01 14:54:00,925 - __main__ - INFO - Returning transformed data with db_id: 27
+2025-12-01 16:06:56,049 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-01 16:06:57,164 - __main__ - INFO - Current document chunks in database: 0
+2025-12-01 16:06:59,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:06:59,644 - __main__ - INFO - Storing first set of document chunks
+2025-12-01 16:06:59,670 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-01 16:07:00,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,305 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,726 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,786 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,788 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,831 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,924 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,930 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:00,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,085 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:01,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-01 16:07:03,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:03,463 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:03,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:03,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:03,947 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:04,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:04,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:04,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:04,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:04,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:05,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:05,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:07,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:07,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-01 16:07:07,785 - __main__ - INFO - Extracted 14 fields from document
+2025-12-01 16:07:07,799 - __main__ - INFO - Stored results in database with db_id: 28
+2025-12-01 16:07:07,801 - __main__ - INFO - Returning transformed data with db_id: 28
+2025-12-04 12:47:51,644 - __main__ - INFO - Processing SOW document: SOW.pdf
+2025-12-04 12:47:53,084 - __main__ - INFO - Current document chunks in database: 0
+2025-12-04 12:47:57,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:57,707 - __main__ - INFO - Storing first set of document chunks
+2025-12-04 12:47:57,751 - __main__ - INFO - Stored 8 chunks in SQLite database
+2025-12-04 12:47:58,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,345 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,480 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,575 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,595 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,610 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,862 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:47:59,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:48:00,100 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:48:00,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:48:00,139 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-04 12:48:01,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:02,707 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:02,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:03,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:03,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:03,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:03,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:03,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:04,180 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:04,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:04,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:04,691 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:06,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:10,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-04 12:48:10,330 - __main__ - INFO - Extracted 14 fields from document
+2025-12-04 12:48:10,389 - __main__ - INFO - Stored results in database with db_id: 29
+2025-12-04 12:48:10,392 - __main__ - INFO - Returning transformed data with db_id: 29
